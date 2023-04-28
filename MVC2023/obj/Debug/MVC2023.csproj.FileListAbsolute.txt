@@ -1,0 +1,10 @@
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\bin\Debug\MVC2023.exe.config
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\bin\Debug\MVC2023.exe
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\bin\Debug\MVC2023.pdb
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\obj\Debug\MVC2023.csproj.AssemblyReference.cache
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\obj\Debug\MVC2023.Properties.Resources.resources
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\obj\Debug\MVC2023.csproj.GenerateResource.cache
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\obj\Debug\MVC2023.csproj.CoreCompileInputs.cache
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\obj\Debug\MVC2023.exe
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\obj\Debug\MVC2023.pdb
+G:\Meu Drive\Naty\Cursos profissionalizantes\ETEC-Desenvolvimento de Sistemas\2-Semestre\Desenvolvimento de Sistemas I\MVC2023\MVC2023\obj\Debug\MVC2023.FrmLogin.resources

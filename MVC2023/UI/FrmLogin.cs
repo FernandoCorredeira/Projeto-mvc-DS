@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MVC2023.DTO;
 using MVC2023.BLL;
+using MVC2023.DAL;
+using MVC2023.UI;
 
 namespace MVC2023
 {
@@ -21,14 +23,7 @@ namespace MVC2023
 
         private void label1_Click(object sender, EventArgs e)
         {
-            LoginDTO DadosLogin = new LoginDTO
-            {
-                Nome = txtNome.Text,
-                Senha = txtSenha.Text,
-
-            };
-            LoginBLL LoginBLL = new LoginBLL();
-            LoginBLL.GetLoginBLL(DadosLogin);
+            
         }
 
         private void FrmLogin_Load(object sender, EventArgs e)
@@ -43,6 +38,29 @@ namespace MVC2023
 
         private void BtnLogin_Click(object sender, EventArgs e)
         {
+            LoginDTO DadosLogin = new LoginDTO
+            {
+                Email = txtEmail.Text,
+                Senha = txtSenha.Text,
+
+            };
+            LoginBLL LoginBLL = new LoginBLL();
+            bool retorno = LoginBLL.GetLoginBLL(DadosLogin);
+
+            if (retorno)
+            {
+                //Carregar o frmMenu criando um objeto primeiro
+                FrmMenu frmMenu = new FrmMenu();
+
+                //Carregar o menu na tela
+                frmMenu.Show();
+                this.Hide();
+            }
+            else
+            {
+                MessageBox.Show("Erro de login");
+
+            }
 
         }
     }

@@ -15,7 +15,7 @@ namespace MVC2023.BLL
         public bool GetLoginBLL(LoginDTO DadosLogin)
         {
             //Validação
-            if(DadosLogin.Nome == null)
+            if(DadosLogin.Email == null)
             {
                 return false;
             }

@@ -29,23 +29,23 @@ namespace MVC2023
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNome = new System.Windows.Forms.Label();
+            this.lblName = new System.Windows.Forms.Label();
             this.lblSenha = new System.Windows.Forms.Label();
             this.btnLogin = new System.Windows.Forms.Button();
-            this.txtNome = new System.Windows.Forms.TextBox();
+            this.txtEmail = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblNome
+            // lblName
             // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNome.Location = new System.Drawing.Point(83, 42);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(45, 18);
-            this.lblNome.TabIndex = 0;
-            this.lblNome.Text = "Nome";
-            this.lblNome.Click += new System.EventHandler(this.label1_Click);
+            this.lblName.AutoSize = true;
+            this.lblName.Font = new System.Drawing.Font("Perpetua", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.Location = new System.Drawing.Point(83, 42);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(42, 18);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Email";
+            this.lblName.Click += new System.EventHandler(this.label1_Click);
             // 
             // lblSenha
             // 
@@ -70,12 +70,12 @@ namespace MVC2023
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.BtnLogin_Click);
             // 
-            // txtNome
+            // txtEmail
             // 
-            this.txtNome.Location = new System.Drawing.Point(81, 73);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(341, 22);
-            this.txtNome.TabIndex = 3;
+            this.txtEmail.Location = new System.Drawing.Point(81, 73);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(341, 22);
+            this.txtEmail.TabIndex = 3;
             // 
             // txtSenha
             // 
@@ -91,10 +91,10 @@ namespace MVC2023
             this.BackColor = System.Drawing.Color.Beige;
             this.ClientSize = new System.Drawing.Size(472, 288);
             this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.txtNome);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.lblSenha);
-            this.Controls.Add(this.lblNome);
+            this.Controls.Add(this.lblName);
             this.Font = new System.Drawing.Font("Lucida Handwriting", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -111,10 +111,10 @@ namespace MVC2023
 
         #endregion
 
-        private System.Windows.Forms.Label lblNome;
+        private System.Windows.Forms.Label lblName;
         private System.Windows.Forms.Label lblSenha;
         private System.Windows.Forms.Button btnLogin;
-        private System.Windows.Forms.TextBox txtNome;
+        private System.Windows.Forms.TextBox txtEmail;
         private System.Windows.Forms.TextBox txtSenha;
     }
 }
